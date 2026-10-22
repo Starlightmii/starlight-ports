@@ -1,0 +1,32 @@
+# ROM binaries and firmware (far too large for git)
+base-firmware/**/*.zip
+base-firmware/**/*.img
+roms/*/base/*.img
+roms/*/target/*.img
+roms/*/merged/*
+roms/*/build/*
+!roms/*/merged/.gitkeep
+!roms/*/build/.gitkeep
+
+# Extracted / intermediate artifacts
+*.new.dat
+*.new.dat.br
+*.transfer.list
+*.patch.dat
+*.raw
+*.sparse
+*.ext4
+
+# Logs
+roms/*/logs/*.log
+roms/*/logs/*.txt
+
+# Temp
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc

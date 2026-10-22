@@ -1,0 +1,60 @@
+---
+# HyperOS Port Manifest
+# Machine-readable record of all file replacements and modifications.
+# Agents: update this after every file copy, patch, or merge operation.
+
+rom: hyperos
+version: "4.0"
+target_device: sweetin
+base_firmware: "miui_SWEETININGlobal_V14.0.1.0.TKFINXM (Android 13)"
+base_android: "13"
+target_android: "17"
+kernel: "4.14.357-reforge"
+build_id: "OS4.0.0.9.XPCCNXM"
+
+status: pre-merge
+verified: false
+# ^ false = target-side identifiers still unverified. Only base firmware facts
+#   in docs/verified-facts.md are confirmed.
+
+replacements: []
+# - source: base/system/lib64/libfoo.so
+#   target: target/system/lib64/libfoo.so
+#   reason: Hardware compatibility for sweetin
+#   verified: false
+
+additions: []
+removals: []
+
+boot_changes:
+  kernel_replaced: false
+  ramdisk_modified: false
+  dtbo_changed: false
+  vbmeta_patched: false
+  notes: ""
+
+# VERIFIED from base firmware dynamic_partitions_op_list
+partition_layout:
+  type: dynamic
+  group: qti_dynamic_partitions
+  group_max_size: 9122611200
+  logical_partitions:
+    system: 1310167040
+    vendor: 1387966464
+    product: 4507086848
+    odm: 1499136
+    system_ext: 806785024
+    mi_ext: 282624
+  physical_images:
+    - boot.img
+    - firmware-update/dtbo.img
+    - firmware-update/logo.img
+    - firmware-update/vbmeta.img
+    - firmware-update/vbmeta_system.img
+
+compatibility_notes:
+  - "Target ROM partition op list MUST fit within 9122611200 bytes."
+  - "Base is Android 13; target reportedly Android 17 - large version gap,"
+  - "verify vendor interface compatibility before merging vendor blobs."
+  - "IMS crash reported in prior session (libimsmedia_jni.so); not yet"
+  - "reproduced or diagnosed. See roms/hyperos/fixes/ once created."
