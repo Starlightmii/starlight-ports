@@ -151,18 +151,28 @@ Captured on-device at 1080 × 2400 from build
 
 <div align="center">
 
-<a href="assets/screen-recording/starlight-demo.mp4">
-  <img src="assets/screen-recording/poster.png" alt="Play the 20-second Starlight demo" width="100%"/>
-</a>
+<div style="position:relative;width:100%;max-width:430px;margin:0 auto;border-radius:36px;background:radial-gradient(circle at 50% 0%,#1a0a2e 0%,#05060f 72%);box-shadow:0 26px 80px rgba(34,211,238,.16),0 0 120px rgba(129,140,248,.22);">
+  <video controls playsinline preload="metadata" width="430"
+         poster="assets/screen-recording/poster.png"
+         aria-label="Starlight ColorOS 17 demo video"
+         style="display:block;width:100%;height:auto;border-radius:36px;background:#05060f;position:relative;z-index:1;">
+    <source src="assets/screen-recording/starlight-demo.mp4" type="video/mp4"/>
+    Your browser cannot play this video.
+    <a href="assets/screen-recording/starlight-demo.mp4">Download the 22-second demo</a>.
+  </video>
+  <img src="assets/design/video-frame.svg" alt="" width="0"
+       style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:2;pointer-events:none;border-radius:36px;"/>
+</div>
 
 <br/>
 
-<sub><strong>Click the poster to play</strong> · 20-second on-device walkthrough · MP4 · 720 × 1600 · ~1 MB</sub>
+<sub><strong>22-second on-device walkthrough</strong> · MP4 · H.264/AAC · 720 × 1600 · 2.1 MB · <a href="assets/screen-recording/starlight-demo.mp4">download</a></sub>
 
 </div>
 
-A quick pass through the launcher, app list, Quick Settings and sound-effect
-settings on the release build.
+A quick pass through the Starlight app drawer, Settings and the Starlight
+**About device** page on the release build. The poster is captured at 0:09;
+the star-frame overlay is [`assets/design/video-frame.svg`](assets/design/video-frame.svg).
 
 ---
 

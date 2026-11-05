@@ -1,28 +1,31 @@
 # Screen recording
 
-`starlight-demo.mp4` — a 20-second on-device walkthrough of the Starlight
+`starlight-demo.mp4` — a 22-second on-device walkthrough of the Starlight
 ColorOS 17 release build.
 
 | Property | Value |
 |---|---|
-| Duration | ~20 s |
-| Resolution | 720 × 1600 |
-| Codec | H.264 / yuv420p, faststart |
-| Audio | none |
-| Size | ~1 MB |
-| Poster | `poster.png` — 1200 × 675 designed still with a play overlay |
+| Duration | 22 s |
+| Resolution | 720 × 1600 (portrait) |
+| Codec | H.264 High / yuv420p, 30 fps, faststart |
+| Audio | AAC, 48 kHz stereo (64 kbps) |
+| Size | ~2.1 MB |
+| Poster | `poster.png` — 720 × 1600 still with the Starlight frame and play badge |
 
 ## What it shows
 
-1. Home screen and status bar
-2. App list / app management
-3. Quick Settings panel
-4. Sound-effect settings
+1. The custom Starlight app drawer
+2. App search and Settings
+3. The Starlight **About device** banner
+4. Build identity and version details
 
-The poster uses the About screen as its hero image and links to the MP4 from
-the README.
+The poster is taken from the About screen at **0:09** and composited with
+[`../design/video-frame.svg`](../design/video-frame.svg) plus a play badge.
 
 ## Notes
 
-- The MP4 is a direct on-device screen recording, re-encoded for web playback.
-- Keep the video under ~20 MB so the showcase stays light.
+- A 22-second cut from the full 80-second on-device screen recording.
+- Re-encoded for web playback with `+faststart`; keep it under ~5 MB so the
+  showcase stays light.
+- The SVG frame is overlaid on the player in the root README; the poster has
+  the same frame baked in so it looks correct before playback.

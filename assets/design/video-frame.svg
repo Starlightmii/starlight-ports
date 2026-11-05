@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1600" viewBox="0 0 720 1600" role="img" aria-labelledby="vfTitle vfDesc">
+  <title id="vfTitle">Starlight demo video frame</title>
+  <desc id="vfDesc">Glowing rounded frame with cyan, indigo and gold Starlight accents, a starfield sparkle and a play pill.</desc>
+  <defs>
+    <linearGradient id="vfFrame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.42" stop-color="#818cf8"/>
+      <stop offset="0.72" stop-color="#c084fc"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="vfRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67e8f9" stop-opacity=".95"/>
+      <stop offset=".5" stop-color="#a78bfa" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#fcd34d" stop-opacity=".95"/>
+    </linearGradient>
+    <linearGradient id="vfPill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#05060f" stop-opacity=".9"/>
+      <stop offset=".5" stop-color="#0a1028" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#1a0a2e" stop-opacity=".9"/>
+    </linearGradient>
+    <linearGradient id="vfGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fcd34d"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="vfGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="vfSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+  </defs>
+
+  <!-- soft aura hugging the frame -->
+  <rect x="4" y="4" width="712" height="1592" rx="48" fill="none" stroke="url(#vfFrame)" stroke-width="26" opacity=".22" filter="url(#vfSoft)"/>
+
+  <!-- main cut-out frame -->
+  <rect x="6" y="6" width="708" height="1588" rx="46" fill="none" stroke="url(#vfFrame)" stroke-width="5" filter="url(#vfGlow)"/>
+  <rect x="15" y="15" width="690" height="1570" rx="38" fill="none" stroke="#e8eeff" stroke-opacity=".18" stroke-width="1.5"/>
+
+  <!-- corner brackets -->
+  <g fill="none" stroke="url(#vfRing)" stroke-width="3.4" stroke-linecap="round">
+    <path d="M46 96 V62 Q46 46 62 46 H96"/>
+    <path d="M624 46 H658 Q674 46 674 62 V96"/>
+    <path d="M674 1504 V1538 Q674 1554 658 1554 H624"/>
+    <path d="M96 1554 H62 Q46 1554 46 1538 V1504"/>
+  </g>
+
+  <!-- star accents -->
+  <g fill="url(#vfGold)" filter="url(#vfGlow)">
+    <path d="M632 132 l4.8 12.4 L649 149 l-12.2 4.8 L632 166 l-4.8-12.2 L615 149 l12.2-4.6 Z" opacity=".95"/>
+    <path d="M84 1420 l3.4 8.8 L96 1432 l-8.6 3.4 L84 1444 l-3.4-8.6 L72 1432 l8.6-3.2 Z" opacity=".8"/>
+  </g>
+  <g fill="#67e8f9" opacity=".9">
+    <circle cx="92" cy="128" r="2.6"/>
+    <circle cx="642" cy="1468" r="2.2"/>
+    <circle cx="606" cy="112" r="1.6"/>
+    <circle cx="120" cy="1482" r="1.6"/>
+  </g>
+
+  <!-- top label / play pill -->
+  <g>
+    <rect x="196" y="40" width="328" height="50" rx="25" fill="url(#vfPill)" stroke="url(#vfRing)" stroke-width="1.6"/>
+    <circle cx="234" cy="65" r="15" fill="url(#vfGold)" opacity=".16"/>
+    <path d="M230 57.5 L242 65 L230 72.5 Z" fill="url(#vfGold)"/>
+    <text x="266" y="70" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="2.6" fill="#e8eeff">STARLIGHT 17.0</text>
+    <text x="432" y="70" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.6" fill="#67e8f9">PLAY</text>
+  </g>
+</svg>
