@@ -10,6 +10,7 @@ references.
 | `logo-star.svg` | 256 × 256 | Standalone star badge for avatars, README footer and social previews |
 | `feature-strip.svg` | 1200 × 240 | Six feature cards: Dolby Atmos, GCam, performance, custom apps, safe install and Circle to Search |
 | `video-frame.svg` | 720 × 1600 | Transparent demo-video overlay: glowing rounded cut-out frame, star accents, and a gradient play pill |
+| `download-cta.svg` | 1200 × 320 | Download call-to-action card: gold star, gradient heading, glowing gold pill and the pixeldrain address; wraps the download link in the README |
 
 ## Palette
 
@@ -28,7 +29,7 @@ references.
 - Text uses an Arial / Helvetica / sans-serif fallback stack.
 - The wordmark, icons and star marks are vector paths and text, so they scale
   cleanly.
-- The four files share the same deep-space gradients, orbit rings and gold
+- The five files share the same deep-space gradients, orbit rings and gold
   accent for a cohesive release page.
 - `video-frame.svg` has a transparent centre so it can sit over the demo video
   (or its poster) without hiding the screen content.

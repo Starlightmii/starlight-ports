@@ -27,5 +27,6 @@ The poster is taken from the About screen at **0:09** and composited with
 - A 22-second cut from the full 80-second on-device screen recording.
 - Re-encoded for web playback with `+faststart`; keep it under ~5 MB so the
   showcase stays light.
-- The SVG frame is overlaid on the player in the root README; the poster has
-  the same frame baked in so it looks correct before playback.
+- The root README shows the poster as a clickable image that opens this MP4 in
+  GitHub's player; the SVG frame is baked into the poster, so it looks correct
+  before playback and no inline `<video>` tag is needed.

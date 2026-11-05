@@ -151,30 +151,31 @@ Captured on-device at 1080 × 2400 from build
 
 <div align="center">
 
-<div style="max-width:430px;margin:0 auto;">
-  <video controls playsinline preload="metadata" width="100%"
-         poster="assets/screen-recording/poster.png"
-         aria-label="Starlight ColorOS 17 demo video"
-         style="display:block;width:100%;height:auto;border-radius:12px;background:#000;">
-    <source src="assets/screen-recording/starlight-demo.mp4" type="video/mp4"/>
-    Your browser cannot play this video.
-    <a href="assets/screen-recording/starlight-demo.mp4">Download the 22-second demo</a>.
-  </video>
-</div>
+[<img src="assets/screen-recording/poster.png" alt="Watch the Starlight demo — click the poster to play the 22-second MP4" width="360"/>](assets/screen-recording/starlight-demo.mp4)
 
 <br/>
 
-<sub><strong>22-second on-device walkthrough</strong> · MP4 · H.264/AAC · 720 × 1600 · 2.1 MB · <a href="assets/screen-recording/starlight-demo.mp4">download</a></sub>
+<sub><strong>▶ Click the poster to play the 22-second walkthrough</strong> · MP4 · H.264/AAC · 720 × 1600 · 2.1 MB</sub>
 
 </div>
 
 A quick pass through the Starlight app drawer, Settings and the Starlight
 **About device** page on the release build. The poster is captured at 0:09.
+Clicking it opens the video in GitHub's player; the MP4 can also be
+[downloaded directly](assets/screen-recording/starlight-demo.mp4).
 
 ---
 
 <a id="download"></a>
 ## Download
+
+<div align="center">
+
+[<img src="assets/design/download-cta.svg" alt="Download Starlight V8 — ColorOS 17 for Redmi Note 10 Pro Max, 5.74 GB from pixeldrain" width="100%"/>](https://pixeldrain.com/u/2wqy5C7s)
+
+<sub><strong>Tap the card to open the download on pixeldrain</strong></sub>
+
+</div>
 
 ### [Download `ColorOS-17-Starlight-V8.zip` — pixeldrain](https://pixeldrain.com/u/2wqy5C7s)
 
