@@ -151,18 +151,16 @@ Captured on-device at 1080 × 2400 from build
 
 <div align="center">
 
-[<img src="assets/screen-recording/poster.png" alt="Watch the Starlight demo — click the poster to play the 22-second MP4" width="360"/>](assets/screen-recording/starlight-demo.mp4)
+https://github.com/user-attachments/assets/be5c47da-f533-4819-89d8-cada219a115d
 
-<br/>
-
-<sub><strong>▶ Click the poster to play the 22-second walkthrough</strong> · MP4 · H.264/AAC · 720 × 1600 · 2.1 MB</sub>
+<sub><strong>▶ 22-second walkthrough</strong> · MP4 · H.264/AAC · 720 × 1600 · 2.1 MB · [download](assets/screen-recording/starlight-demo.mp4) · [poster](assets/screen-recording/poster.png)</sub>
 
 </div>
 
 A quick pass through the Starlight app drawer, Settings and the Starlight
-**About device** page on the release build. The poster is captured at 0:09.
-Clicking it opens the video in GitHub's player; the MP4 can also be
-[downloaded directly](assets/screen-recording/starlight-demo.mp4).
+**About device** page on the release build. The player streams the committed
+2.1 MB MP4 inline; the poster frame at 0:09 is kept as a fallback if the player
+cannot load.
 
 ---
 

@@ -27,6 +27,9 @@ The poster is taken from the About screen at **0:09** and composited with
 - A 22-second cut from the full 80-second on-device screen recording.
 - Re-encoded for web playback with `+faststart`; keep it under ~5 MB so the
   showcase stays light.
-- The root README shows the poster as a clickable image that opens this MP4 in
-  GitHub's player; the SVG frame is baked into the poster, so it looks correct
-  before playback and no inline `<video>` tag is needed.
+- The root README embeds the demo the way GitHub supports inline video: a bare
+  `https://github.com/user-attachments/assets/<uuid>` URL on its own line. GitHub
+  rewrites that to a `<video controls muted>` player at render time. Authored
+  `<video>` tags are stripped by GitHub's README sanitizer, so do not replace the
+  bare URL with one. The committed MP4 remains the source/download and
+  `poster.png` stays as the no-player fallback.
