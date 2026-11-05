@@ -1,33 +1,28 @@
 # Screen recording
 
 `starlight-demo.mp4` — a 20-second on-device walkthrough of the Starlight
-ColorOS 17 build.
+ColorOS 17 release build.
 
 | Property | Value |
 |---|---|
 | Duration | ~20 s |
 | Resolution | 720 × 1600 |
 | Codec | H.264 / yuv420p, faststart |
-| Audio | none (screenrecord) |
+| Audio | none |
 | Size | ~1 MB |
-| Source | `adb shell screenrecord` on `sweetin` |
-| Poster | `poster.png` (frame at 00:02) |
+| Poster | `poster.png` — 1200 × 675 designed still with a play overlay |
 
 ## What it shows
 
 1. Home screen and status bar
-2. App drawer with the custom `cust.img` apps
+2. App list / app management
 3. Quick Settings panel
-4. About device — Starlight banner, GitHub row, `CP2A.260605.016 Starlight build`
+4. Sound-effect settings
 
-## Re-record
+The poster uses the About screen as its hero image and links to the MP4 from
+the README.
 
-```bash
-adb shell screenrecord --size 720x1600 --bit-rate 4M --time-limit 25 /sdcard/starlight-demo.mp4
-adb pull /sdcard/starlight-demo.mp4 .
-ffmpeg -i starlight-demo.mp4 -c:v libx264 -preset slow -crf 30 \
-  -pix_fmt yuv420p -movflags +faststart -an starlight-demo.mp4
-```
+## Notes
 
-If a longer or higher-quality recording is added later, keep it under ~20 MB so
-the showcase branch stays light.
+- The MP4 is a direct on-device screen recording, re-encoded for web playback.
+- Keep the video under ~20 MB so the showcase stays light.

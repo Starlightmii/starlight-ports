@@ -4,146 +4,137 @@
 
 <br/>
 
-<h1>Starlight — ColorOS 17 for Redmi Note 10 Pro Max (sweetin)</h1>
+<h1>Starlight</h1>
 
-<p><strong>A clean, daily-driver ColorOS 17 port for <code>sweetin</code> — built by Starlight.</strong></p>
+<p><strong>ColorOS 17 (Android 17) for the Redmi Note 10 Pro Max</strong><br/>
+<code>sweetin</code> · <code>M2101K6I</code> · Snapdragon 732G</p>
+
+<p><em>An unofficial, recovery-flashable ColorOS 17 build for one specific phone.</em></p>
 
 <a href="https://github.com/starlightmii"><img src="https://img.shields.io/badge/GitHub-starlightmii-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Android-17-3DDC84?style=for-the-badge&amp;logo=android&amp;logoColor=white" alt="Android 17"/></a>
-<a href="#"><img src="https://img.shields.io/badge/ColorOS-17-1D4ED8?style=for-the-badge" alt="ColorOS 17"/></a>
-<a href="#"><img src="https://img.shields.io/badge/device-sweetin%20%C2%B7%20M2101K6I-0EA5E9?style=for-the-badge&amp;logo=xiaomi&amp;logoColor=white" alt="sweetin / M2101K6I"/></a>
-<a href="#"><img src="https://img.shields.io/badge/build-CP2A.260605.016%20Starlight-7C3AED?style=for-the-badge" alt="CP2A.260605.016 Starlight build"/></a>
-<a href="#"><img src="https://img.shields.io/badge/status-daily%20driver-22C55E?style=for-the-badge" alt="Daily driver"/></a>
-
-<br/><br/>
-
-<img src="assets/design/logo-star.svg" alt="Starlight logo" width="96"/>
+<a href="#download"><img src="https://img.shields.io/badge/Android-17-3DDC84?style=for-the-badge&amp;logo=android&amp;logoColor=white" alt="Android 17"/></a>
+<a href="#download"><img src="https://img.shields.io/badge/ColorOS-17-1D4ED8?style=for-the-badge" alt="ColorOS 17"/></a>
+<a href="#download"><img src="https://img.shields.io/badge/device-sweetin%20%C2%B7%20M2101K6I-0EA5E9?style=for-the-badge&amp;logo=xiaomi&amp;logoColor=white" alt="sweetin / M2101K6I"/></a>
+<a href="#download"><img src="https://img.shields.io/badge/build-CP2A.260605.016%20Starlight-7C3AED?style=for-the-badge" alt="CP2A.260605.016 Starlight build"/></a>
+<a href="#download"><img src="https://img.shields.io/badge/status-daily%20driver-22C55E?style=for-the-badge" alt="Daily driver"/></a>
 
 </div>
 
 ---
 
-## ✨ What is this?
+## What is Starlight?
 
 **Starlight** is an unofficial **ColorOS 17 (Android 17)** port for the
 **Xiaomi Redmi Note 10 Pro Max** — codename **`sweetin`**, model **`M2101K6I`**,
 Snapdragon 732G (SM7150).
 
-It is not a skin or a launcher pack. The full ColorOS 17 system, vendor, product
-and custom partitions were rebuilt for `sweetin`, with the hardware that this
-phone does not have removed, and the features it *does* have — Dolby, the 108 MP
-camera stack, fast charging, IR blaster — kept and tuned.
+It is a full system port, not a launcher pack or a theme. The ColorOS 17
+system, vendor, product and custom partitions are built for `sweetin`, with
+hardware the phone does not have removed, and the features it does have —
+Dolby audio, the 108 MP camera stack and a custom app suite — kept and tuned.
 
-The result is a **safe, recovery-flashable daily driver** with a custom app suite,
-a Starlight-branded About page, and no data wipe.
-
-<div align="center">
-<img src="assets/design/feature-strip.svg" alt="Features: Dolby Atmos, GCam, performance, custom apps, safe install, Circle to Search" width="100%"/>
-</div>
+The result is a **recovery-flashable daily driver** with a Starlight-branded
+About page, a purposeful app suite, and **no data wipe**.
 
 ---
 
-## 📱 At a glance
+## At a glance
 
 | | |
 |---|---|
 | **Device** | Redmi Note 10 Pro Max (`sweetin` / `M2101K6I`) |
-| **Platform** | Snapdragon 732G — SM7150 |
+| **Platform** | Snapdragon 732G (SM7150) |
+| **Memory / storage** | 6 GB / 128 GB |
+| **Region** | India · no NFC |
 | **OS** | ColorOS 17 · Android 17 |
 | **Build display** | `CP2A.260605.016 Starlight build` |
-| **Release** | `ColorOS-17-Starlight-V8.zip` — **5.74 GB** |
+| **Package** | `ColorOS-17-Starlight-V8.zip` · 5.74 GB |
 | **Install** | OrangeFox recovery · `adb sideload` |
-| **Fastboot** | ❌ Not used, not required |
-| **Data wipe** | ❌ Not required |
-| **Status** | ✅ Daily-driver release |
+| **Fastboot** | Not used, not required |
+| **Data wipe** | Not required |
+| **Status** | Daily-driver release |
 
 ---
 
-## 🚀 Features
+## Highlights
 
-### 🔊 Dolby Atmos that actually works
+<div align="center">
+<img src="assets/design/feature-strip.svg" alt="Starlight features: Dolby Atmos, GCam camera, performance, custom apps, safe install and Circle to Search" width="100%"/>
+</div>
 
-**LunarisDolby v2** is integrated into the system and branded for Starlight.
-The Dolby stack is live in **Settings → Sound & vibration → Sound effect
-settings**, and in the **LunarisDolby** app, with the hardware audio path of
-`sweetin` enabled instead of a generic software fallback.
+### Dolby Atmos, integrated
 
-- Dolby Atmos profiles and equaliser
-- Quick Settings access
-- Starlight branding, no third-party developer branding
-- Sound effects page confirmed working on-device
+The Dolby Atmos stack is integrated as **LunarisDolby** and wired into
+**Settings → Sound & vibration → Sound effect settings**. Dolby profiles and
+sound modes are available in the LunarisDolby app, and the ColorOS
+sound-effect page opens and works on-device.
 
-### 📷 Camera
+### GCam camera
 
-- **GCam (Google Camera)** is the default capture app.
-- The **Sogou camera** and **OPPO camera** packages are removed.
-- Camera extensions and sensor plumbing are kept intact for the 108 MP stack.
+**GCam (Google Camera)** is the default capture app. The 108 MP camera stack
+and sensor plumbing are kept intact, while the extra OPPO and Sogou camera
+packages are removed from this build.
 
-### ⭐ Starlight identity
+### A Starlight identity
 
 The About page is fully customised:
 
-- Starlight hero banner with the star mark and `17.0` wordmark
-- **`developer: starlight ⭐`** row that opens
-  **[github.com/starlightmii](https://github.com/starlightmii)**
-- Device shown as **Redmi Note 10 Pro Max**
-- Build shown as **`CP2A.260605.016 Starlight build`**
+- A Starlight banner with the star mark and `17.0` wordmark.
+- A **`developer: starlight`** row that opens
+  **[github.com/starlightmii](https://github.com/starlightmii)**.
+- Device shown as **Redmi Note 10 Pro Max**.
+- Build shown as **`CP2A.260605.016 Starlight build`**.
 
-### 🧹 Lean system settings
+### Lean, relevant Settings
 
-- **System updates removed** — no dead OPPO/OnePlus update entries.
-- **Screen-off gestures removed** — no unsupported hardware toggles.
-- NFC, 5G/NR, alert-slider, UWB and other `sweetin`-absent hardware entries are
-  stripped from the UI and config.
-- 32-bit app support restored, so older apps keep working.
+- **System updates** entries are removed — no dead update pages.
+- **Screen-off gestures** are removed — no unsupported hardware toggles.
+- Unsupported hardware entries for this device are trimmed from Settings and
+  config, so the pages that remain are the ones that matter.
 
-### ⚡ Performance tuned
+### Performance tuned for this phone
 
-The build is tuned for the 6 GB / 128 GB `sweetin` configuration: smoother
-launcher and scrolling, trimmed background weight, and a display configuration
-that keeps the native **1080 × 2400** resolution at **440 dpi** — no forced
+The build is tuned for the 6 GB / 128 GB `sweetin` configuration: a smoother
+launcher and scrolling, lighter background work, and the native
+**1080 × 2400** display kept at its native resolution — no forced
 high-resolution mode.
 
-### 🔎 Circle to Search
+### Circle to Search, wired in
 
-The Google / Velvet assist plumbing is wired so **Circle to Search** resolves
-correctly on long-press of the navigation handle. Google basic services and the
-Play Store work on this CN-based donor port.
+The Google / Velvet assist path is wired for **Circle to Search** on the
+navigation handle, alongside Google basic services.
 
-### 📦 Custom app suite (`cust.img`)
+### A custom app suite
 
-A purpose-built **`cust.img`** ships **16 preloaded apps**, including:
+A purpose-built custom partition (`cust.img`) ships a curated set of preloaded
+apps:
 
-| App | App | App |
-|---|---|---|
-| Documents | Translate | Weather |
-| IR Remote | Screen sharing | Motion wallpaper |
-| Screencast | PersonalityClocks | Widgets |
-| Notes | cust base apps | + more |
+**Notes · Weather · Translate · Documents · IR Remote · Screen sharing ·
+Screencast · PersonalityClocks · Widgets · Motion wallpaper** — and more.
 
 These are preloaded, not bolted on after first boot.
 
-### 🛡️ Safe install
+### Safe by design
 
 - Recovery-only package — **no fastboot**.
-- **No data wipe**; your `/data` is left alone.
-- Writes the standard partition set: **`super.img.zst`**, **`cust.img.zst`**,
-  **`boot.img`**, **`dtbo.img`**, **`vbmeta.img`**, **`vbmeta_system.img`**.
-- First boot takes a few minutes while the system settles.
+- **No data wipe**; `/data` is left alone.
+- Writes the standard partition set: `super.img.zst`, `cust.img.zst`,
+  `boot.img`, `dtbo.img`, `vbmeta.img` and `vbmeta_system.img`.
+- First boot can take several minutes while the system settles.
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 <div align="center">
 
 | Home | About — Starlight build |
 |---|---|
-| <img src="assets/screenshots/01-home.png" alt="Home screen with status bar" width="300"/> | <img src="assets/screenshots/02-about-starlight.png" alt="About device with Starlight banner, GitHub button and CP2A.260605.016 Starlight build" width="300"/> |
+| <img src="assets/screenshots/01-home.png" alt="Starlight home screen" width="300"/> | <img src="assets/screenshots/02-about-starlight.png" alt="About device with Starlight banner, GitHub button and CP2A.260605.016 Starlight build" width="300"/> |
 
-| Quick Settings / status bar | Sound effects |
+| Quick Settings | Sound effects |
 |---|---|
-| <img src="assets/screenshots/03-quick-settings.png" alt="Quick Settings panel" width="300"/> | <img src="assets/screenshots/04-sound-effects.png" alt="ColorOS sound effect settings" width="300"/> |
+| <img src="assets/screenshots/03-quick-settings.png" alt="Expanded Quick Settings" width="300"/> | <img src="assets/screenshots/04-sound-effects.png" alt="ColorOS sound effect settings" width="300"/> |
 
 | LunarisDolby — Starlight | App drawer — custom apps |
 |---|---|
@@ -151,52 +142,77 @@ These are preloaded, not bolted on after first boot.
 
 </div>
 
-> Screenshots captured on-device at 1080 × 2400 from build
-> `CP2A.260605.016 Starlight build`. See
-> [`assets/screenshots/NOTE.md`](assets/screenshots/NOTE.md) for details.
+Captured on-device at 1080 × 2400 from build
+`CP2A.260605.016 Starlight build`.
 
-### 🎬 Screen recording
+---
 
-[**▶ Watch the 20-second Starlight demo**](assets/screen-recording/starlight-demo.mp4)
+## Demo
 
-<a href="assets/screen-recording/starlight-demo.mp4"><img src="assets/screen-recording/poster.png" alt="Starlight demo recording poster" width="300"/></a>
+<div align="center">
 
-A short walkthrough of the launcher, app drawer, Quick Settings and About page.
-Details in [`assets/screen-recording/NOTE.md`](assets/screen-recording/NOTE.md).
+<a href="assets/screen-recording/starlight-demo.mp4">
+  <img src="assets/screen-recording/poster.png" alt="Play the 20-second Starlight demo" width="100%"/>
+</a>
+
+<br/>
+
+<sub><strong>Click the poster to play</strong> · 20-second on-device walkthrough · MP4 · 720 × 1600 · ~1 MB</sub>
+
+</div>
+
+A quick pass through the launcher, app list, Quick Settings and sound-effect
+settings on the release build.
 
 ---
 
 <a id="download"></a>
 ## Download
 
-| Source | Link |
+| | |
 |---|---|
-| **GitHub** | **https://github.com/starlightmii** |
-| **Release ZIP** | `ColorOS-17-Starlight-V8.zip` |
-| **Repo path** | `roms/coloros/build/final/ColorOS-17-Starlight-V8.zip` |
+| **Host** | **[github.com/starlightmii](https://github.com/starlightmii)** |
+| **File** | `ColorOS-17-Starlight-V8.zip` |
+| **Artifact path** | `roms/coloros/build/final/ColorOS-17-Starlight-V8.zip` |
 | **Size** | 5,746,312,130 bytes (5.74 GB) |
 | **SHA-256** | `e7529ced36b59bea25ef0ba80a295d5c4c9c20a328ce8e4a44358b1e0b67392a` |
 
-The ROM is hosted through **[github.com/starlightmii](https://github.com/starlightmii)**.
-Check the profile's pinned repositories / releases for the current download.
-The machine-readable pointer lives in [`LINK`](LINK).
+The ROM is hosted through **https://github.com/starlightmii** — check the
+profile's pinned repositories and releases for the current download.
 
-> The 5.74 GB ZIP is **not committed to this branch**. Only the showcase
-> README, media and SVG design assets live here.
+> The 5.74 GB ZIP is **not** stored in this showcase folder. Only the release
+> page, media and checksums live here.
+
+### Verify before flashing
+
+```bash
+sha256sum ColorOS-17-Starlight-V8.zip
+# e7529ced36b59bea25ef0ba80a295d5c4c9c20a328ce8e4a44358b1e0b67392a
+```
+
+The showcase assets — this README, the SVGs, screenshots, poster and demo
+video — are covered by [`CHECKSUMS.sha256`](CHECKSUMS.sha256):
+
+```bash
+cd release
+sha256sum --ignore-missing -c CHECKSUMS.sha256
+```
+
+The ROM ZIP line is included as a reference. `--ignore-missing` lets the
+command skip the ZIP when it is not in this folder.
 
 ---
 
-<a id="install-guide"></a>
-## Install guide
+<a id="install"></a>
+## Install
 
 ### Requirements
 
 - Redmi Note 10 Pro Max (`sweetin` / `M2101K6I`)
 - Unlocked bootloader
 - **OrangeFox Recovery** (or another recovery with `adb sideload` support)
-- `adb` + `fastboot` platform tools on your PC — **only `adb` is used**
-- A full backup of anything you care about (the ROM does not wipe data, but
-  always keep a backup)
+- `adb` platform tools on your PC — **only `adb` is used**
+- A full backup of anything you care about
 
 ### Flash with adb sideload
 
@@ -204,14 +220,14 @@ The machine-readable pointer lives in [`LINK`](LINK).
 # 1. Boot the phone into OrangeFox recovery.
 #    (Recovery → Reboot → Recovery, or the usual key combo.)
 
-# 2. Confirm the PC sees the device in sideload/recovery mode.
+# 2. Confirm the PC sees the device in recovery.
 adb devices
 
 # 3. Sideload the complete ROM package.
 adb sideload ColorOS-17-Starlight-V8.zip
 
-# 4. When it finishes, reboot to system.
-#    First boot can take several minutes.
+# 4. Reboot to system.
+#    First boot can take several minutes while the system settles.
 ```
 
 ### Flash from the phone (no PC)
@@ -225,8 +241,8 @@ adb sideload ColorOS-17-Starlight-V8.zip
 
 | Partition image | Purpose |
 |---|---|
-| `super.img.zst` | ColorOS 17 system, product, system_ext, vendor, my_* |
-| `cust.img.zst` | Custom app suite (16 apps) |
+| `super.img.zst` | ColorOS 17 system, product, system_ext and vendor |
+| `cust.img.zst` | Custom app suite |
 | `boot.img` | Boot image |
 | `dtbo.img` | Device tree overlay |
 | `vbmeta.img` | Verified boot metadata |
@@ -234,63 +250,63 @@ adb sideload ColorOS-17-Starlight-V8.zip
 
 ### Rules
 
-- ❌ **Do not use fastboot.**
-- ❌ **Do not wipe `/data`.** The package is designed to keep your data.
-- ❌ **Do not format internal storage.**
-- ✅ Keep the recovery ZIP on the device or PC until first boot succeeds.
-- ✅ Verify the SHA-256 above before flashing.
+- **Do not use fastboot.** This is a recovery / sideload package.
+- **Do not wipe `/data`.** The package is designed to keep your data.
+- **Do not format internal storage.**
+- Keep the ZIP on the device or PC until first boot succeeds.
+- Verify the SHA-256 above before flashing.
 
 ---
 
-## ✅ Verified on-device
+## Verified on-device
 
 - [x] Build display: `CP2A.260605.016 Starlight build`
 - [x] Device identity: Redmi Note 10 Pro Max (`M2101K6I`, `sweetin`)
 - [x] Dolby / LunarisDolby stack present and openable
-- [x] Sound effect settings page works
-- [x] Starlight About banner + GitHub button
+- [x] Sound-effect settings page works
+- [x] Starlight About banner and GitHub button
 - [x] System updates and screen-off gesture entries removed
-- [x] Sogou camera and OPPO camera removed
-- [x] Custom `cust.img` apps preloaded
+- [x] Custom app suite preloaded
 - [x] Circle-to-Search plumbing
 - [x] Recovery / sideload package layout (`super`, `cust`, `boot`, `dtbo`,
       `vbmeta`, `vbmeta_system`)
 
 ---
 
-## 🙏 Credits
+## Credits
 
 | | |
 |---|---|
-| **Starlight** | Port, branding, integration, tuning, custom `cust.img` |
-| **ColorOS 17 donor** | Base system and ColorOS framework |
+| **Starlight** | Port, branding, integration, tuning and the custom app suite |
+| **ColorOS 17** | Base system and framework |
 | **LunarisDolby** | Dolby Atmos app and audio integration |
 | **Google Camera (GCam)** | Default camera experience |
 | **OrangeFox Recovery** | Recovery and sideload workflow |
-| **Open-source tooling** | `erofs-utils`, `zstd`, `img2simg`, `payload-dumper`, and friends |
-| **Testers** | Everyone who flashed, logged and reported back |
+| **Testers** | Everyone who flashed, tested and reported back |
 
 Starlight is an independent, unofficial project. It is **not affiliated with,
-endorsed by, or supported by** OPPO, Xiaomi, Google, or the LunarisDolby
+endorsed by, or supported by** OPPO, Xiaomi, Google or the LunarisDolby
 maintainers. All trademarks belong to their respective owners.
+
+---
+
+## Disclaimer
+
+Flash at your own risk. This is a community port built for one specific device
+(`sweetin` / `M2101K6I`). Do not flash it on any other phone. Back up your
+data, verify the checksum and keep a working recovery. The authors are not
+responsible for bricked devices, lost data or voided warranties.
 
 ---
 
 <div align="center">
 
-<img src="assets/design/logo-star.svg" alt="Starlight" width="48"/>
+<img src="assets/design/logo-star.svg" alt="Starlight" width="64"/>
+
+<br/>
 
 **Starlight — light years ahead of stock.**
 
-[GitHub](https://github.com/starlightmii) · [Download ZIP](#download) · [Install](#install-guide)
+[GitHub](https://github.com/starlightmii) · [Download](#download) · [Install](#install)
 
 </div>
-
----
-
-## ⚠️ Disclaimer
-
-Flash at your own risk. This is a community port built for one specific device
-(`sweetin` / `M2101K6I`). Do not flash it on any other phone. Back up your data,
-verify the checksum, and keep a working recovery. The authors are not
-responsible for bricked devices, lost data, or voided warranties.

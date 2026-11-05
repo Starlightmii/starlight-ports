@@ -1,11 +1,13 @@
 Starlight — ColorOS 17 for Redmi Note 10 Pro Max (sweetin)
 
 GitHub profile : https://github.com/starlightmii
-ROM ZIP        : roms/coloros/build/final/ColorOS-17-Starlight-V8.zip
+ROM ZIP        : ColorOS-17-Starlight-V8.zip
+Artifact path  : roms/coloros/build/final/ColorOS-17-Starlight-V8.zip
 ZIP size       : 5,746,312,130 bytes (5.74 GB)
 SHA-256        : e7529ced36b59bea25ef0ba80a295d5c4c9c20a328ce8e4a44358b1e0b67392a
 
 The 5.74 GB ZIP is hosted through https://github.com/starlightmii and is not
-committed to this branch. Check the profile's pinned repositories / releases.
+stored in this showcase folder. Check the profile's pinned repositories and
+releases for the current download.
 
 Install: OrangeFox recovery -> adb sideload. No fastboot. No data wipe.
