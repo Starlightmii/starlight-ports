@@ -22,6 +22,8 @@
 
 ---
 
+<p align="center"><sub><a href="https://github.com/Starlightmii/starlight-ports"><strong>← Back to the main repository</strong></a> — source, tools and development docs</sub></p>
+
 ## What is Starlight?
 
 **Starlight** is an unofficial **ColorOS 17 (Android 17)** port for the
@@ -307,6 +309,6 @@ responsible for bricked devices, lost data or voided warranties.
 
 **Starlight — light years ahead of stock.**
 
-[GitHub](https://github.com/starlightmii) · [Download](#download) · [Install](#install)
+[Main repository](https://github.com/Starlightmii/starlight-ports) · [GitHub](https://github.com/starlightmii) · [Download](#download) · [Install](#install)
 
 </div>

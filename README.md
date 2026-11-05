@@ -4,6 +4,12 @@ AI-agent-driven Android ROM porting, modification & release engineering for **Xi
 
 > This repository is designed for AI agents (pi, Hermes, OpenCode) to autonomously port, fix, debloat, and package ROMs. Humans can use it too — but the structure, manifests, and skills are optimized for machine consumption.
 
+## Release / Showcase
+
+**[Starlight — ColorOS 17 for Redmi Note 10 Pro Max →](https://github.com/Starlightmii/starlight-ports/blob/release-showcase/release/README.md)**
+
+Public release page for the current build: highlights, on-device screenshots, demo video, SHA-256 checksums, and recovery/sideload install instructions. The showcase lives in [`release/`](release/README.md).
+
 ## Repository Structure
 
 ```
