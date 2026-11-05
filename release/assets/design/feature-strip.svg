@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
+  <title id="title">Starlight feature strip</title>
+  <desc id="desc">Six feature cards: Dolby Atmos, GCam, performance tuning, custom apps, safe install and Circle to Search.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101638"/>
+      <stop offset="1" stop-color="#0a0e24"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <!-- card 1: Dolby -->
+    <g>
+      <rect x="45" y="24" width="170" height="192" rx="24" fill="url(#card)" stroke="#38bdf8" stroke-opacity="0.22"/>
+      <g transform="translate(130 108)" fill="url(#accent)">
+        <rect x="-34" y="-6" width="8" height="18" rx="4"/>
+        <rect x="-18" y="-18" width="8" height="42" rx="4"/>
+        <rect x="-2" y="-30" width="8" height="66" rx="4"/>
+        <rect x="14" y="-14" width="8" height="34" rx="4"/>
+        <rect x="30" y="-24" width="8" height="54" rx="4"/>
+      </g>
+      <text x="130" y="172" fill="#e2e8f0" font-size="20" font-weight="700" text-anchor="middle">Dolby Atmos</text>
+      <text x="130" y="194" fill="#7f8db8" font-size="14" text-anchor="middle">LunarisDolby</text>
+    </g>
+
+    <!-- card 2: GCam -->
+    <g>
+      <rect x="235" y="24" width="170" height="192" rx="24" fill="url(#card)" stroke="#38bdf8" stroke-opacity="0.22"/>
+      <g transform="translate(320 108)" fill="none" stroke="url(#accent)" stroke-width="4">
+        <circle r="30"/>
+        <circle r="16"/>
+        <path d="M0 -30 L13 -8 L30 0 L13 8 L0 30 L-13 8 L-30 0 L-13 -8 Z" stroke-width="2.4"/>
+      </g>
+      <circle cx="320" cy="108" r="5" fill="url(#accent)"/>
+      <text x="320" y="172" fill="#e2e8f0" font-size="20" font-weight="700" text-anchor="middle">GCam</text>
+      <text x="320" y="194" fill="#7f8db8" font-size="14" text-anchor="middle">Camera</text>
+    </g>
+
+    <!-- card 3: Performance -->
+    <g>
+      <rect x="425" y="24" width="170" height="192" rx="24" fill="url(#card)" stroke="#38bdf8" stroke-opacity="0.22"/>
+      <g transform="translate(510 108)">
+        <path d="M6 -36 L-24 6 H-4 L-10 36 L24 -10 H2 Z" fill="url(#accent)" filter="url(#glow)" opacity="0.7"/>
+        <path d="M6 -36 L-24 6 H-4 L-10 36 L24 -10 H2 Z" fill="url(#accent)"/>
+      </g>
+      <text x="510" y="172" fill="#e2e8f0" font-size="20" font-weight="700" text-anchor="middle">Performance</text>
+      <text x="510" y="194" fill="#7f8db8" font-size="14" text-anchor="middle">tuned for sweet</text>
+    </g>
+
+    <!-- card 4: Custom apps -->
+    <g>
+      <rect x="615" y="24" width="170" height="192" rx="24" fill="url(#card)" stroke="#38bdf8" stroke-opacity="0.22"/>
+      <g transform="translate(700 108)" fill="url(#accent)">
+        <rect x="-32" y="-32" width="26" height="26" rx="8"/>
+        <rect x="6" y="-32" width="26" height="26" rx="8"/>
+        <rect x="-32" y="6" width="26" height="26" rx="8"/>
+        <rect x="6" y="6" width="26" height="26" rx="8"/>
+      </g>
+      <text x="700" y="172" fill="#e2e8f0" font-size="20" font-weight="700" text-anchor="middle">Custom apps</text>
+      <text x="700" y="194" fill="#7f8db8" font-size="14" text-anchor="middle">16 extras</text>
+    </g>
+
+    <!-- card 5: Safe install -->
+    <g>
+      <rect x="805" y="24" width="170" height="192" rx="24" fill="url(#card)" stroke="#38bdf8" stroke-opacity="0.22"/>
+      <g transform="translate(890 108)">
+        <path d="M0 -34 L30 -22 V4 C30 22 17 34 0 40 C-17 34 -30 22 -30 4 V-22 Z" fill="url(#accent)" fill-opacity="0.18" stroke="url(#accent)" stroke-width="3"/>
+        <path d="M-12 2 L-3 12 L14 -10" fill="none" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text x="890" y="172" fill="#e2e8f0" font-size="20" font-weight="700" text-anchor="middle">Safe install</text>
+      <text x="890" y="194" fill="#7f8db8" font-size="14" text-anchor="middle">no data wipe</text>
+    </g>
+
+    <!-- card 6: Circle to Search -->
+    <g>
+      <rect x="995" y="24" width="170" height="192" rx="24" fill="url(#card)" stroke="#38bdf8" stroke-opacity="0.22"/>
+      <g transform="translate(1080 108)" fill="none" stroke="url(#accent)" stroke-width="4">
+        <circle cx="-4" cy="-4" r="26"/>
+        <path d="M15 15 L34 34" stroke-linecap="round" stroke-width="6"/>
+        <path d="M-19 -4 L11 -4" stroke-opacity="0.55" stroke-width="2"/>
+        <path d="M-4 -19 L-4 11" stroke-opacity="0.55" stroke-width="2"/>
+      </g>
+      <text x="1080" y="172" fill="#e2e8f0" font-size="17" font-weight="700" text-anchor="middle">Circle to Search</text>
+      <text x="1080" y="194" fill="#7f8db8" font-size="14" text-anchor="middle">Google Lens</text>
+    </g>
+  </g>
+</svg>
