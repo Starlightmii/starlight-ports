@@ -151,17 +151,15 @@ Captured on-device at 1080 × 2400 from build
 
 <div align="center">
 
-<div style="position:relative;width:100%;max-width:430px;margin:0 auto;border-radius:36px;background:radial-gradient(circle at 50% 0%,#1a0a2e 0%,#05060f 72%);box-shadow:0 26px 80px rgba(34,211,238,.16),0 0 120px rgba(129,140,248,.22);">
-  <video controls playsinline preload="metadata" width="430"
+<div style="max-width:430px;margin:0 auto;">
+  <video controls playsinline preload="metadata" width="100%"
          poster="assets/screen-recording/poster.png"
          aria-label="Starlight ColorOS 17 demo video"
-         style="display:block;width:100%;height:auto;border-radius:36px;background:#05060f;position:relative;z-index:1;">
+         style="display:block;width:100%;height:auto;border-radius:12px;background:#000;">
     <source src="assets/screen-recording/starlight-demo.mp4" type="video/mp4"/>
     Your browser cannot play this video.
     <a href="assets/screen-recording/starlight-demo.mp4">Download the 22-second demo</a>.
   </video>
-  <img src="assets/design/video-frame.svg" alt="" width="0"
-       style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:2;pointer-events:none;border-radius:36px;"/>
 </div>
 
 <br/>
@@ -171,24 +169,28 @@ Captured on-device at 1080 × 2400 from build
 </div>
 
 A quick pass through the Starlight app drawer, Settings and the Starlight
-**About device** page on the release build. The poster is captured at 0:09;
-the star-frame overlay is [`assets/design/video-frame.svg`](assets/design/video-frame.svg).
+**About device** page on the release build. The poster is captured at 0:09.
 
 ---
 
 <a id="download"></a>
 ## Download
 
+### [Download `ColorOS-17-Starlight-V8.zip` — pixeldrain](https://pixeldrain.com/u/2wqy5C7s)
+
+**[https://pixeldrain.com/u/2wqy5C7s](https://pixeldrain.com/u/2wqy5C7s)**
+
 | | |
 |---|---|
-| **Host** | **[github.com/starlightmii](https://github.com/starlightmii)** |
+| **Primary host** | **[pixeldrain.com/u/2wqy5C7s](https://pixeldrain.com/u/2wqy5C7s)** |
+| **Mirror / profile** | **[github.com/starlightmii](https://github.com/starlightmii)** |
 | **File** | `ColorOS-17-Starlight-V8.zip` |
-| **Artifact path** | `roms/coloros/build/final/ColorOS-17-Starlight-V8.zip` |
 | **Size** | 5,746,312,130 bytes (5.74 GB) |
 | **SHA-256** | `e7529ced36b59bea25ef0ba80a295d5c4c9c20a328ce8e4a44358b1e0b67392a` |
 
-The ROM is hosted through **https://github.com/starlightmii** — check the
-profile's pinned repositories and releases for the current download.
+The ROM is hosted on **pixeldrain**. The
+**[github.com/starlightmii](https://github.com/starlightmii)** profile carries
+release announcements and mirrors.
 
 > The 5.74 GB ZIP is **not** stored in this repository. Only this page, the
 > media assets and the checksums live here.

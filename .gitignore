@@ -3,6 +3,9 @@ base-firmware/**/*.zip
 base-firmware/**/*.img
 roms/*/base/*.img
 roms/*/target/*.img
+# Target ROM archives (ColorOS OTA is currently under base/)
+roms/*/base/*.zip
+roms/*/target/*.zip
 roms/*/merged/*
 roms/*/build/*
 !roms/*/merged/.gitkeep
@@ -21,6 +24,10 @@ roms/*/build/*
 roms/*/logs/*.log
 roms/*/logs/*.txt
 
+# Agent locks (ephemeral)
+agents/locks/*
+!agents/locks/.gitkeep
+
 # Temp
 *.tmp
 *.bak
@@ -30,3 +37,43 @@ Thumbs.db
 # Python
 __pycache__/
 *.pyc
+
+# Option A staging (above data/ only)
+roms/coloros/merged/optA/
+
+# ---------------------------------------------------------------------------
+# Public showcase branch (release-showcase)
+# Internal ports, agent workspace, tooling, docs and build data are NOT public.
+# The published tree is only: README.md, assets/**, release/LINK,
+# CHECKSUMS.sha256 and this .gitignore.
+# ---------------------------------------------------------------------------
+agents/
+.opencode/
+opencode.json
+goal.md
+
+AGENTS.md
+PROJECT.md
+README.developer.md
+docs/
+skills/
+skill/
+tools/
+sweet-rom-porting/
+Ports/
+base-firmware/
+
+# Entire ROM port tree (manifests, debloat lists, fixes, logs, merged, base,
+# target, build output) is internal.
+roms/
+
+# Local captures, vendor dumps and scratch archives
+My Collected data/
+Collected logs from my cos 17 port not booted/
+*.zip
+*.log
+*.img
+*.img.zst
+*.tar
+*.tar.gz
+*.7z
