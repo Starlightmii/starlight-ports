@@ -67,6 +67,10 @@ base-firmware/
 # target, build output) is internal.
 roms/
 
+# Live-lyrics guide is public (part of the release bundle)
+!release/docs/
+!release/docs/**
+
 # Local captures, vendor dumps and scratch archives
 My Collected data/
 Collected logs from my cos 17 port not booted/
