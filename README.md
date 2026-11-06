@@ -292,7 +292,6 @@ adb sideload ColorOS-17-Starlight-V8.zip
 | **ColorOS 17** | Base system and framework |
 | **LunarisDolby** | Dolby Atmos app and audio integration |
 | **Google Camera (GCam)** | Default camera experience |
-| **Kernel** | @maxmaxim59 — kernel build & port for sweetin |
 | **OrangeFox Recovery** | Recovery and sideload workflow |
 | **Testers** | Everyone who flashed, tested and reported back |
 
