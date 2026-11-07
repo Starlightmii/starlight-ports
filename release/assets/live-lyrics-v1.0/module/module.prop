@@ -1,0 +1,6 @@
+id=starlight_livelyrics_enable
+name=Starlight LiveLyrics Enabler
+version=v1.0
+versionCode=1
+author=Starlight Ports
+description=Enables the native ColorOS lock-screen lyric page by setting la_lyric_mode=2 at boot. Flash in KernelSU/Magisk; no adb or terminal needed. Tap Action to re-apply and show the current value.
