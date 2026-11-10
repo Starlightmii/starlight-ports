@@ -81,3 +81,5 @@ Collected logs from my cos 17 port not booted/
 *.tar
 *.tar.gz
 *.7z
+.build-tmp/
+opencode.json.backup-*
