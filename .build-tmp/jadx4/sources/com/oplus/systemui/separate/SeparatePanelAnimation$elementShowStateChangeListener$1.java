@@ -1,0 +1,22 @@
+package com.oplus.systemui.separate;
+
+import com.android.systemui.panelanimation.PanelAnimationEx;
+
+/* JADX INFO: compiled from: go/retraceme fd74bf9514dd0739b92d67a6d48a51eb10aaf8df760d83496b8dcfcf83e5f698 */
+/* JADX INFO: loaded from: /home/starlight/Projects/Starlight Ports/.build-tmp/classes4.dex */
+public final class SeparatePanelAnimation$elementShowStateChangeListener$1 implements PanelAnimationEx.ElementShowingChangeListener {
+    public /* synthetic */ SeparatePanelAnimation this$0;
+
+    public final void onElementShowingChanged() {
+    }
+
+    public final void onFirstElementShowingChanged() {
+        SeparatePanelAnimation separatePanelAnimation = this.this$0;
+        PanelAnimationEx panelAnimationEx = separatePanelAnimation.panelAnimationEx;
+        if (panelAnimationEx.isFirstElementShowing()) {
+            return;
+        }
+        separatePanelAnimation.lastFirstElementShowing = panelAnimationEx.isFirstElementShowing();
+        separatePanelAnimation.lastTrackingMoveDistance = Float.NaN;
+    }
+}

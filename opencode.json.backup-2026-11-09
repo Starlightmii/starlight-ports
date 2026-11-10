@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "opencode": {
+      "models": {
+        "deepseek-v4.1-flash-free": {
+          "reasoning": true,
+          "options": {
+            "reasoning_effort": "max",
+            "max_thinking_tokens": 32000
+          }
+        }
+      }
+    }
+  }
+}

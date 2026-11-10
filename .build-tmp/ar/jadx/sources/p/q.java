@@ -1,0 +1,13 @@
+package p;
+
+/* JADX INFO: compiled from: r8-map-id-864ffde9d59ed35bc4209251fe295afa616a17016f049d977cb0fda4927bbf7c */
+/* JADX INFO: loaded from: classes.dex */
+public final class q extends s {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final long f4568a;
+
+    public q(long j5) {
+        this.f4568a = j5;
+    }
+}

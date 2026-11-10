@@ -1,0 +1,30 @@
+package com.oplus.systemui.statusbar.policy;
+
+import com.android.systemui.qs.brightness.BrightnessMirrorController;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function0;
+
+/* JADX INFO: compiled from: go/retraceme fd74bf9514dd0739b92d67a6d48a51eb10aaf8df760d83496b8dcfcf83e5f698 */
+/* JADX INFO: loaded from: /home/starlight/Projects/Starlight Ports/.build-tmp/classes4.dex */
+public final /* synthetic */ class OplusBrightnessMirrorController$alphaHandler$1$$ExternalSyntheticLambda0 implements Function0 {
+    public final /* synthetic */ int $r8$classId;
+    public /* synthetic */ OplusBrightnessMirrorController f$0;
+
+    public /* synthetic */ OplusBrightnessMirrorController$alphaHandler$1$$ExternalSyntheticLambda0(int i) {
+        this.$r8$classId = i;
+    }
+
+    public final Object invoke() {
+        int i = this.$r8$classId;
+        OplusBrightnessMirrorController oplusBrightnessMirrorController = this.f$0;
+        switch (i) {
+            case 0:
+                ((BrightnessMirrorController) oplusBrightnessMirrorController).mBrightnessMirror.setVisibility(4);
+                break;
+            default:
+                oplusBrightnessMirrorController.handleMirrorInvisible();
+                break;
+        }
+        return Unit.INSTANCE;
+    }
+}
