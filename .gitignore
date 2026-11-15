@@ -83,3 +83,28 @@ Collected logs from my cos 17 port not booted/
 *.7z
 .build-tmp/
 opencode.json.backup-*
+
+# ---------------------------------------------------------------------------
+# Integrity kit + engineering reports are public (part of the release bundle).
+# Binary release payloads (.zip/.apk) stay out of git and are attached to the
+# GitHub release instead; every source file and document is committed here so
+# nothing is ever lost.
+# ---------------------------------------------------------------------------
+!release/assets/
+!release/assets/**
+!release/assets/**/docs/
+!release/assets/**/docs/**
+!release/assets/**/module/
+!release/assets/**/module/**
+!release/assets/**/keyboxes/
+!release/assets/**/keyboxes/**
+!release/assets/**/props/
+!release/assets/**/props/**
+!release/assets/**/play/
+!release/assets/**/play/**
+!release/assets/**/upstream/
+!release/assets/**/upstream/**
+!release/assets/**/strong/
+!release/assets/**/strong/**
+!release/docs/reports/
+!release/docs/reports/**

@@ -284,6 +284,42 @@ adb sideload ColorOS-17-Starlight-V8.zip
 
 ---
 
+<a id="integrity"></a>
+## Integrity Kit & engineering reports
+
+Everything that was built and measured while porting this ROM is published, so
+nothing is lost. Binaries ship as GitHub release assets; the sources and every
+document are committed in this repository.
+
+### Releases
+
+| Release | What it is |
+|---|---|
+| [`integrity-kit-v1.0`](https://github.com/Starlightmii/starlight-ports/releases/tag/integrity-kit-v1.0) | **Starlight Integrity Kit v1.0** — the single KernelSU module for Play Integrity on this port, plus the checker, keyboxes, recovery scripts and the full diagnosis. |
+| [`live-lyrics-v1.0`](https://github.com/Starlightmii/starlight-ports/releases/tag/live-lyrics-v1.0) | Live Lyrics on lock screen — full setup bundle. |
+| [`ims-v1.9`](https://github.com/Starlightmii/starlight-ports/releases/tag/ims-v1.9) | IMS / VoLTE + SMS + USSD fix. |
+
+### In this repository
+
+| Path | Contents |
+|---|---|
+| `release/assets/starlight-integrity-kit-v1.0/` | Module source (`module/`), install + recovery guides, findings, keyboxes, props, upstream provenance, checksums. |
+| `release/docs/reports/` | Engineering reports: IMS/VoLTE consolidation, no-boot log analysis, PhonePe login teardown diagnosis. |
+| `release/docs/live-lyrics-guide.md` | Live Lyrics setup guide. |
+
+### Integrity Kit, in one paragraph
+
+One KernelSU module (`starlight_integrity_kit`) applies lock-state
+compatibility props, keeps Oh My Keymint away from every Google package, and
+never touches your accounts or wipes data. It backs every write up, ships an
+`action.sh` menu (status, apply baseline, keybox, repair OMK, re-license the
+store) and has a clean uninstall. The honest ceiling on this unlocked port is
+`MEETS_BASIC_INTEGRITY`; DEVICE/STRONG need a locked bootloader or a viable
+attestation-keybox route that this ROM does not have. Read
+`docs/LIMITS.md` before enabling anything beyond the baseline.
+
+---
+
 ## Credits
 
 | | |

@@ -1,0 +1,6 @@
+id=starlight_integrity_kit
+name=Starlight Integrity Kit
+version=v1.0
+versionCode=1
+author=Starlight Ports
+description=One KernelSU module for the whole Play Integrity stack on sweetin ColorOS 17: lock-state compatibility props, safe Oh My Keymint routing (Google packages never routed), keybox validation/install, opt-in certified identity (off by default), stale GMS props cleanup, Play Store re-license helper, and a status/action menu. BASIC is the hardware ceiling on this unlocked bootloader.
